@@ -1,0 +1,31 @@
+{
+  "name": "portfolio.docpad",
+  "description": "Personal portfolio website",
+  "main": "node_modules/.bin/docpad-server",
+  "authors": [
+    "Bill Broughton <me@billbroughton.me>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "portfolio",
+    "siimple",
+    "docpad"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "homepage": "http://www.billbroughton.me",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/render/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "siimple": "^1.3.1"
+  }
+}
