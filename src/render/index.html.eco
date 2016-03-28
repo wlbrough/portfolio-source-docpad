@@ -16,3 +16,22 @@ home: true
 </ul>
 
 <h4>Projects</h4>
+
+<% for project in @getCollection("projects").toJSON(): %>
+  <div class="media">
+    <a class="media-left" href="<%= project.url %>">
+      <img class="media-object" src="<%= project.thumbnail %>" alt="<%= project.title %>">
+    </a>
+    <div class="media-body">
+      <a href="<%= project.url %>"><h4 class="media-heading"><%= project.title %> <small><% if project.ongoing: %>Ongoing<% else: %><%= project.date.getFullYear() %><% end %></small></h4></a>
+      <%= project.teaser %>
+    </div>
+  </div>
+<% end %>
+
+<h5 class="projects-more">More on the way!</h5>
+
+<aside class="about">
+  <h4>About Me</h4>
+  <p>This is some filler text...</p>
+</aside>

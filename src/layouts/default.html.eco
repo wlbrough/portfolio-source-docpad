@@ -46,8 +46,8 @@
         <div class="grid">
           <div class="row">
             <div class="col-12">
-              <h1>Bill Broughton</h1>
-              <% if @document.home: %><h2>Something creative goes here</h2><% end %>
+              <a href="/"><h1>Bill Broughton</h1></a>
+              <% if @document.home: %><h2>Full-stack developer</h2><% end %>
               <div class="social-media">
                 <a href="https://www.github.com/wlbrough" rel="me"><span class="icon-github"><span class="sr-only">Github</span></span></a>
                 <a href="https://www.twitter.com/#!/billtechspring" rel="me"><span class="icon-twitter"><span class="sr-only">Twitter</span></span></a>

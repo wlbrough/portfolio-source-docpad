@@ -11,7 +11,7 @@ docpadConfig = {
 				My personal website for projects and writing.
 			"""
 
-		getPageTitle: -> if @document.title then "#{@document.title} | #{@site.title}" else @site.title
+		getPageTitle: -> if @document.title then "#{@document.title} | #{@site.title}" else @site.title;
 
 	collections:
 		pages: ->

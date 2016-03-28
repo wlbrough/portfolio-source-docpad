@@ -1,6 +1,7 @@
 @import 'colors';
 @import 'iconfont';
 @import 'screenreader';
+@import 'media';
 
 .social-media {
   font-size: 1.5rem;
@@ -11,6 +12,23 @@
   }
 }
 
-.post-title {
+.post-title, .project-title, .project-roles {
   margin-bottom: 0;
+}
+
+.projects-more {
+  margin-top: 1.2rem;
+}
+
+.project-image {
+  margin-bottom: 1.2rem;
+}
+
+.recent-posts {
+  font-size: 1.1rem;
+  list-style-type: none;
+
+  a {
+    color: $grey1;
+  }
 }
