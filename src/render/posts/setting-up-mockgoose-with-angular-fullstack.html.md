@@ -1,10 +1,9 @@
 ---
-layout: "default"
+layout: "post"
 date: 2015-10-01
 hasCode: true
+title: "Setting up mockgoose with angular-fullstack"
 ---
-
-## Setting up mockgoose with angular-fullstack
 
 I’m using the Yeoman angular-fullstack generator for a MEAN project that I’m
 working on and I wanted to be able to mock the database connection for quicker

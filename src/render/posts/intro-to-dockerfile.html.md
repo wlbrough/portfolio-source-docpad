@@ -1,10 +1,9 @@
 ---
-layout: "default"
+layout: "post"
 date: 2016-01-30
 hasCode: true
+title: "Quick Intro to Dockerfile"
 ---
-
-## Quick Intro to Dockerfile
 
 For a while I was using VirtualBox/Vagrant for development projects. More
 recently I’ve moved to using Docker. I use Linux (lubuntu) on my dev computer

@@ -1,0 +1,18 @@
+---
+layout: "default"
+home: true
+---
+
+<h4>Posts</h4>
+
+<ul class="recent-posts">
+  <% for post in @getCollection("posts").toJSON(): %>
+    <li class="post-link">
+      <a href="<%= post.url %>">
+        <%= post.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+
+<h4>Projects</h4>

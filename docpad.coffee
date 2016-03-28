@@ -17,7 +17,9 @@ docpadConfig = {
 		pages: ->
 			@getCollection("html").findAllLive({isPage: true});
 		posts: ->
-			@getCollection("html").findAllLive({relativeOutDirPath: 'posts'});
+			@getCollection("html").findAllLive({relativeOutDirPath: 'posts'},[{date:-1}]);
+		projects: ->
+			@getCollection("html").findAllLive({relativeOutDirPath: 'projects'},[{date:-1}]);
 
 	plugins:
 		nodesass:

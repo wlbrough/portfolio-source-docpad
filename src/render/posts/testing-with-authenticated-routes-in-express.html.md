@@ -1,10 +1,9 @@
 ---
-layout: "default"
+layout: "post"
 date: 2015-10-04
 hasCode: true
+title: "Testing with authenticated routes in Express"
 ---
-
-## Testing with authenticated routes in Express
 
 I recently had a problem. I’m working on an Express API project and writing
 tests with Mocha/Should/Supertest. Everything was going great and all of my
