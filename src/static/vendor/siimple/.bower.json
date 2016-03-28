@@ -1,0 +1,36 @@
+{
+  "name": "siimple",
+  "version": "1.3.1",
+  "main": "dist/siimple.css",
+  "author": "Josemi Juanes <josemijuanes@gmail.com>",
+  "homepage": "https://siimple.github.io",
+  "ignore": [
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siimple/siimple.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "siimple",
+    "css",
+    "framework",
+    "jmjuanes",
+    "minimal",
+    "flat",
+    "clean",
+    "websites",
+    "responsive"
+  ],
+  "_release": "1.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.3.1",
+    "commit": "f55f61ae46159c50235e83499f8cf0690823e8f5"
+  },
+  "_source": "git://github.com/siimple/siimple.git",
+  "_target": "^1.3.1",
+  "_originalSource": "siimple",
+  "_direct": true
+}

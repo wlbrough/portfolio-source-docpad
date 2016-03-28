@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Bill Broughton -- Developer -- @billtechspring
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Siimple, LikeAStore Icons
