@@ -27,6 +27,8 @@ docpadConfig = {
 				includePaths: [__dirname + "/src/render/assets/scss"]
 				outputStyle: 'compressed'
 				debugInfo: 'map'
+		cleanurls:
+			static: true
 		ghpages:
       deployRemote: 'target'
       deployBranch: 'master'
