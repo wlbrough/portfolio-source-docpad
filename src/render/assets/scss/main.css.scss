@@ -2,6 +2,7 @@
 @import 'iconfont';
 @import 'screenreader';
 @import 'media';
+@import 'alert';
 
 .social-media {
   font-size: 1.5rem;
@@ -22,6 +23,7 @@
 
 .project-image {
   margin-bottom: 1.2rem;
+  max-width: 100%;
 }
 
 .recent-posts {
@@ -31,4 +33,8 @@
   a {
     color: $grey1;
   }
+}
+
+.mauticform-row {
+  display: inline-block;
 }
