@@ -31,12 +31,32 @@ home: true
 
 <h5 class="projects-more">More on the way!</h5>
 
+<div class="about">
+  <h4>About Me</h4>
+  <p>My name is Bill and I'm a full-stack developer. My main thing is JavaScript, but I'm proficient with Python and Ruby too.</p>
+  <p>I build websites and web applications for startups and small to mid-size businesses. I have a finance and business background, so I'm well-equipped to solve difficult business problems.</p>
+  <p>Things I like:</p>
+  <ul>
+    <li>My family</li>
+    <li>Cars and motorcycles</li>
+    <li>Craft beer</li>
+    <li>Dogs</li>
+    <li>Being outside</li>
+  </ul>
+  <p>Things I don't like:</p>
+  <ul>
+    <li>Intolerance</li>
+    <li>Clowns</li>
+    <li>Snakes</li>
+  </ul>
+</div>
+
 <div class="contact">
   <h4>Contact</h4>
   <p>Talk to me: <a href="mailto:bill@billbroughton.me">bill@billbroughton.me</a></p>
 
   <div class="alert" id="newsletter">
-    <p>I'm doing a weekly email with links to five articles that I thought were interesting. Most are development related, but they could be about anything. Sign up and see what I'm reading.</p>
+    <p>I'm doing a weekly email with links to five articles that I think are interesting. Most are development related, but they could be about anything. Sign up and see what I'm reading.</p>
     <div id="mauticform_wrapper_newslettersignup" class="mauticform_wrapper">
       <form autocomplete="false" role="form" method="post" action="https://techspring.mautic.com/form/submit?formId=2" id="mauticform_newslettersignup" data-mautic-form="newslettersignup">
         <div class="mauticform-error" id="mauticform_newslettersignup_error"></div>
