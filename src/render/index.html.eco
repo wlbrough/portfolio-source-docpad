@@ -33,22 +33,9 @@ home: true
 
 <div class="about">
   <h4>About Me</h4>
-  <p>My name is Bill and I'm a full-stack developer. My main thing is JavaScript, but I'm proficient with Python and Ruby too.</p>
-  <p>I build websites and web applications for startups and small to mid-size businesses. I have a finance and business background, so I'm well-equipped to solve difficult business problems.</p>
-  <p>Things I like:</p>
-  <ul>
-    <li>My family</li>
-    <li>Cars and motorcycles</li>
-    <li>Craft beer</li>
-    <li>Dogs</li>
-    <li>Being outside</li>
-  </ul>
-  <p>Things I don't like:</p>
-  <ul>
-    <li>Intolerance</li>
-    <li>Clowns</li>
-    <li>Snakes</li>
-  </ul>
+  <p>
+    I help businesses capture high-quality leads with web apps designed to go viral. I got internet famous when I built What <a href="http://www.wfplsiu.com">F#&amp;king Programming Language Should I Use?</a> which front-paged <a href="https://redd.it/4bs5jq">Reddit</a> and <a href="https://news.ycombinator.com/item?id=11354593">Hacker News</a> and was <a href="http://www.sharedcount.com/#url=http%3A%2F%2Fwww.wfplsiu.com%2F">shared broadly on social media</a>. Since then, I have been working on a <a href="http://www.clearho.me">startup</a> and building fun, engaging web applications for other companies to increase brand awareness and generate targeted leads. I am also a co-teacher on <a href="http://ghostinfluence.com/">Ghost Influence</a>, a community based on the idea of marketing with Digital Empathy - connecting authentically with your audience. When not writing code or building marketing strategy, I'm hanging out with my family, mountain biking, or wrenching on a car or motorcycle.
+  </p>
 </div>
 
 <div class="contact">
