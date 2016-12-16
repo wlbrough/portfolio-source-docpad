@@ -3,7 +3,8 @@ layout: "project"
 title: "clearhome"
 roles: "Creator, Developer, & Designer"
 date: 2016-04-06
-ongoing: true
+ongoing: false
+abandoned: true
 image: "/assets/img/clearhome-400.png"
 thumbnail: "/assets/img/clearhome-thumb.png"
 teaser: "I am building a web and phone application to help people assess what they own and help get rid of the stuff they don't need."

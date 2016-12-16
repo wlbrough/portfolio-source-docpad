@@ -23,7 +23,7 @@ home: true
       <img class="media-object" src="<%= project.thumbnail %>" alt="<%= project.title %>">
     </a>
     <div class="media-body">
-      <a href="<%= project.url %>"><h4 class="media-heading"><%= project.title %> <small><% if project.ongoing: %>Ongoing<% else: %><%= project.date.getFullYear() %><% end %></small></h4></a>
+      <a href="<%= project.url %>"><h4 class="media-heading"><%= project.title %> <small><% if project.ongoing: %>Ongoing<% else if project.abandoned: %>Abandoned<% else: %><%= project.date.getFullYear() %><% end %></small></h4></a>
       <%= project.teaser %>
     </div>
   </div>
@@ -34,7 +34,7 @@ home: true
 <div class="about">
   <h4>About Me</h4>
   <p>
-    I help businesses capture high-quality leads with web apps designed to go viral. I got internet famous when I built What <a href="http://www.wfplsiu.com">F#&amp;king Programming Language Should I Use?</a> which front-paged <a href="https://redd.it/4bs5jq">Reddit</a> and <a href="https://news.ycombinator.com/item?id=11354593">Hacker News</a> and was <a href="http://www.sharedcount.com/#url=http%3A%2F%2Fwww.wfplsiu.com%2F">shared broadly on social media</a>. Since then, I have been working on a <a href="http://www.clearho.me">startup</a> and building fun, engaging web applications for other companies to increase brand awareness and generate targeted leads. I am also a co-teacher on <a href="http://ghostinfluence.com/">Ghost Influence</a>, a community based on the idea of marketing with Digital Empathy - connecting authentically with your audience. When not writing code or building marketing strategy, I'm hanging out with my family, mountain biking, or wrenching on a car or motorcycle.
+    I build cool stuff for the internet with JavaScript, Node, and Elixir. I got internet famous when I built <a href="http://www.wfplsiu.com">What F#&amp;king Programming Language Should I Use?</a> which front-paged <a href="https://redd.it/4bs5jq">Reddit</a> and <a href="https://news.ycombinator.com/item?id=11354593">Hacker News</a> and was <a href="http://www.sharedcount.com/#url=http%3A%2F%2Fwww.wfplsiu.com%2F">shared broadly on social media</a>. Since then, I have been working on a <a href="http://www.clearho.me">startup</a> and building fun, engaging web applications for other companies to increase brand awareness and generate targeted leads. When not writing code, I'm hanging out with my family, mountain biking, or wrenching on a car or motorcycle.
   </p>
 </div>
 
@@ -42,7 +42,7 @@ home: true
   <h4>Contact</h4>
   <p>Talk to me: <a href="mailto:bill@billbroughton.me">bill@billbroughton.me</a></p>
 
-  <div class="alert" id="newsletter">
+  <!-- <div class="alert" id="newsletter">
     <p>I'm doing a weekly email with links to five articles that I think are interesting. Most are development related, but they could be about anything. Sign up and see what I'm reading.</p>
     <div id="mauticform_wrapper_newslettersignup" class="mauticform_wrapper">
       <form autocomplete="false" role="form" method="post" action="https://techspring.mautic.com/form/submit?formId=2" id="mauticform_newslettersignup" data-mautic-form="newslettersignup">
@@ -66,7 +66,7 @@ home: true
         </div>
       </form>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <footer role="contentinfo">

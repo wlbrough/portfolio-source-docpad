@@ -10,11 +10,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta property="og:description" content="My personal website for projects and writing." />
-        <meta property="og:url" content="https://www.billbroughton.me" />
+        <meta property="og:url" content="http://www.billbroughton.me" />
         <meta property="og:site_name" content="Bill Broughton" />
         <meta property="og:title" content="Bill Broughton" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.billbroughton.me/assets/img/avatar.jpg" />
+        <meta property="og:image" content="http://www.billbroughton.me/assets/img/avatar.jpg" />
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="400" />
@@ -24,7 +24,7 @@
         <meta name="twitter:site" content="@billtechspring" />
         <meta name="twitter:title" content="Bill Broughton">
         <meta name="twitter:description" content="My personal website for projects and writing.">
-        <meta name="twitter:image" content="https://www.billbroughton.me/assets/img/avatar.jpg">
+        <meta name="twitter:image" content="http://www.billbroughton.me/assets/img/avatar.jpg">
 
         <!-- Open Source Protocol -->
         <link rel="profile" href="http://osprotocol.com" />

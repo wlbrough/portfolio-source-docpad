@@ -5,7 +5,7 @@
 docpadConfig = {
 	templateData:
 		site:
-		  url: "https://www.billbroughton.me"
+		  url: "http://www.billbroughton.me"
 		  title: "Bill Broughton"
 		  description: """
 				My personal website for projects and writing.
@@ -27,11 +27,15 @@ docpadConfig = {
 				includePaths: [__dirname + "/src/render/assets/scss"]
 				outputStyle: 'compressed'
 				debugInfo: 'map'
-		cleanurls:
-			static: true
 		ghpages:
       deployRemote: 'target'
       deployBranch: 'master'
+
+	environments:
+    static:
+        plugins:
+            cleanurls:
+                enabled: false
 }
 
 # Export the DocPad Configuration
