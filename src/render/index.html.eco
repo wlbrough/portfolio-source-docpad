@@ -15,79 +15,18 @@ home: true
   <% end %>
 </ul>
 
-<h4>Projects</h4>
-
-<% for project in @getCollection("projects").toJSON(): %>
-  <div class="media">
-    <a class="media-left" href="<%= project.url %>">
-      <img class="media-object" src="<%= project.thumbnail %>" alt="<%= project.title %>">
-    </a>
-    <div class="media-body">
-      <a href="<%= project.url %>"><h4 class="media-heading"><%= project.title %> <small><% if project.ongoing: %>Ongoing<% else if project.abandoned: %>Abandoned<% else: %><%= project.date.getFullYear() %><% end %></small></h4></a>
-      <%= project.teaser %>
-    </div>
-  </div>
-<% end %>
-
-<h5 class="projects-more">More on the way!</h5>
-
 <div class="about">
   <h4>About Me</h4>
   <p>
-    I build cool stuff for the internet with JavaScript, Node, and Elixir. I got internet famous when I built <a href="http://www.wfplsiu.com">What F#&amp;king Programming Language Should I Use?</a> which front-paged <a href="https://redd.it/4bs5jq">Reddit</a> and <a href="https://news.ycombinator.com/item?id=11354593">Hacker News</a> and was <a href="http://www.sharedcount.com/#url=http%3A%2F%2Fwww.wfplsiu.com%2F">shared broadly on social media</a>. Since then, I have been working on a <a href="http://www.clearho.me">startup</a> and building fun, engaging web applications for other companies to increase brand awareness and generate targeted leads. When not writing code, I'm hanging out with my family, mountain biking, or wrenching on a car or motorcycle.
+    I build cool stuff for the internet with JavaScript/Node, PHP, Clojure, and Elixir. When not writing code, I'm hanging out with my family, mountain biking, or wrenching on a car or motorcycle.
   </p>
 </div>
 
 <div class="contact">
   <h4>Contact</h4>
   <p>Talk to me: <a href="mailto:bill@billbroughton.me">bill@billbroughton.me</a></p>
-
-  <!-- <div class="alert" id="newsletter">
-    <p>I'm doing a weekly email with links to five articles that I think are interesting. Most are development related, but they could be about anything. Sign up and see what I'm reading.</p>
-    <div id="mauticform_wrapper_newslettersignup" class="mauticform_wrapper">
-      <form autocomplete="false" role="form" method="post" action="https://techspring.mautic.com/form/submit?formId=2" id="mauticform_newslettersignup" data-mautic-form="newslettersignup">
-        <div class="mauticform-error" id="mauticform_newslettersignup_error"></div>
-        <div class="mauticform-message" id="mauticform_newslettersignup_message"></div>
-        <div class="mauticform-innerform">
-
-          <div id="mauticform_newslettersignup_email"  data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-required">
-            <input id="mauticform_input_newslettersignup_email" name="mauticform[email]" value="" placeholder="your@email.com" class="mauticform-input form-input form-auto" type="email" />
-            <span class="mauticform-errormsg" style="display: none;">Please enter a valid email address</span>
-          </div>
-
-          <div id="mauticform_newslettersignup_submit"  class="mauticform-row mauticform-button-wrapper">
-            <button type="submit" name="mauticform[submit]" id="mauticform_input_newslettersignup_submit" name="mauticform[submit]" value="" class="mauticform-button form-input form-auto" value="1">Submit</button>
-          </div>
-
-          <input type="hidden" name="mauticform[formId]" id="mauticform_newslettersignup_id" value="2" />
-          <input type="hidden" name="mauticform[return]" id="mauticform_newslettersignup_return" value="" />
-          <input type="hidden" name="mauticform[formName]" id="mauticform_newslettersignup_name" value="newslettersignup" />
-
-        </div>
-      </form>
-    </div>
-  </div> -->
 </div>
 
 <footer role="contentinfo">
-  &copy;2016 Bill Broughton. <a href="http://github.com/wlbrough/portfolio-source-docpad">Source</a>
+  &copy;2018 Bill Broughton. <a href="http://github.com/wlbrough/portfolio-source-docpad">Source</a>
 </footer>
-
-<script type="text/javascript">
-  /** This section is only needed once per page if manually copying **/
-  if (typeof MauticSDKLoaded == 'undefined') {
-      var MauticSDKLoaded = true;
-      var head            = document.getElementsByTagName('head')[0];
-      var script          = document.createElement('script');
-      script.type         = 'text/javascript';
-      script.src          = 'https://techspring.mautic.com/mautic/media/js/mautic-form.js';
-      script.onload       = function() {
-          MauticSDK.onLoad();
-      };
-      head.appendChild(script);
-      var MauticDomain = 'https://techspring.mautic.com';
-      var MauticLang   = {
-          'submittingMessage': "Please wait..."
-      }
-  }
-</script>
